@@ -1,36 +1,40 @@
 body{
-    background-image: url(https://www.einerd.com.br/wp-content/uploads/2018/08/a-origem-e1534511902356.jpg);
-    background-size: auto 100vh; 
-    height: 100vh;
-    font-family: Arial;
-    
-   }
+  /*background-image específica para carregar imagens no css */
+  background-image: url(https://www.einerd.com.br/wp-content/uploads/2018/08/a-origem-e1534511902356.jpg);
+  background-size: auto 100vh;  
+  height: 100vh;
+  font-family: Arial; /*Altera a fonte do bory*/
   
-  .menu{
-    background-color: white;
-  }
-  
-  .menu ul{
-    display:flex; /* força todos ficarem em linha*/
-    justify-content: space-around ; /*força espaço entre as colunas  */
-  }
-  
-  .menu li {
-    list-style:none;
-  }
-  
-  a {   
-    color:teal;
-    text-decoration: none;
-  }
-  
-  a:hover{
-    text-decoration:underline;
-  }
-  
-  .site-tittle, 
-  .site-subtittle {
-    color: whitesmoke;
-    text-align:center;
-   }
-  
+ }
+
+.menu{
+  background-color: white;
+}
+ 
+.menu ul{
+  display:flex; /* força todos os elementos a ficarem em linha um ao lado do outro*/
+  justify-content: space-around ; /*força espaço entre as colunas  */
+}
+
+.menu li {
+  list-style:none; /* list-style:none remove o ponto em frente as listas */
+}
+
+a {   
+  color:teal;
+  text-decoration: none; /*text-decoration:none remove undeline*/
+}
+
+a:hover{ /*tag a é uma pseudo classe e não precisa colocar ponto "."*/
+  text-decoration:underline; /* text-decoration:underline: adicona underline a passar o mouse*/
+}
+
+.site-title, 
+.site-subtitle {
+  color: whitesmoke;
+  text-align:center;
+ }
+
+.site-subtitle {
+  font-style:italic;
+}
