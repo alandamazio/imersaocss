@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://www.einerd.com.br/wp-content/uploads/2018/08/a-origem-e1534511902356.jpg);
+    background-size: auto 100vh; 
+    height: 100vh;
+    font-family: Arial;
+    
+   }
+  
+  .menu{
+    background-color: white;
+  }
+  
+  .menu ul{
+    display:flex; /* força todos ficarem em linha*/
+    justify-content: space-around ; /*força espaço entre as colunas  */
+  }
+  
+  .menu li {
+    list-style:none;
+  }
+  
+  a {   
+    color:teal;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration:underline;
+  }
+  
+  .site-tittle, 
+  .site-subtittle {
+    color: whitesmoke;
+    text-align:center;
+   }
+  
